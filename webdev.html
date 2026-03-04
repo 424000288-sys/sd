@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Knowledge - Demo</title>
+    <link rel="stylesheet" href="style.css">
+      
+</head>
+<body>
+    <header id="university-header">
+        <div class="container">
+            <!-- Top Bar -->
+            <div class="header-top">
+                <div class="university-info">
+                    <span>📞 +1 (555) 123-4567</span>
+                    <span>✉️ info@university.edu</span>
+                    <span>📍 123 Campus Drive</span>
+                </div>
+                <div class="social-links">
+                    <a href="#">📘</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📷</a>
+                    <a href="#">🔗</a>
+                </div>
+            </div>
+
+            <!-- Main Navigation -->
+            <nav class="main-nav">
+                <div class="logo">
+                    <div class="logo-icon">🎓</div>
+                    <div class="logo-text">
+                        <h1>University of Knowledge</h1>
+                        <span>Est. 1850 · Excellence in Education</span>
+                    </div>
+                </div>
+                
+                <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Academics ▼</a>
+                        <div class="dropdown-content">
+                            <a href="#">Undergraduate</a>
+                            <a href="#">Graduate</a>
+                            <a href="#">Online Programs</a>
+                            <a href="#">Continuing Education</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Admissions ▼</a>
+                        <div class="dropdown-content">
+                            <a href="#">Apply Now</a>
+                            <a href="#">Requirements</a>
+                            <a href="#">Tuition & Aid</a>
+                            <a href="#">Visit Campus</a>
+                        </div>
+                    </li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Campus Life</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Shape Your Future at University of Knowledge</h2>
+                <p>Discover world-class education, groundbreaking research, and a vibrant community of scholars dedicated to making a difference.</p>
+                <a href="#" class="btn">Apply Now</a>
+                <a href="#" class="btn btn-secondary">Virtual Tour</a>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label">Academic Programs</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">15,000</div>
+                        <div class="stat-label">Students</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Employment Rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <div class="container">
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">📚</div>
+                <h3>World-Class Faculty</h3>
+                <p>Learn from Nobel laureates, Pulitzer Prize winners, and leading researchers in their fields.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔬</div>
+                <h3>Cutting-Edge Research</h3>
+                <p>$500M+ annual research funding with state-of-the-art facilities and labs.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🌍</div>
+                <h3>Global Community</h3>
+                <p>Students from 100+ countries creating a diverse and inclusive learning environment.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🏆</div>
+                <h3>Student Success</h3>
+                <p>Comprehensive support services, career counseling, and internship opportunities.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Programs Section -->
+    <section class="programs">
+        <div class="container">
+            <h2 class="section-title">Featured Programs</h2>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-image">
+                        <div class="program-badge">Popular</div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Computer Science</h3>
+                        <p>BS, MS, PhD programs focusing on AI, machine learning, and software engineering.</p>
+                        <div class="program-meta">
+                            <span>⏱️ 4 Years</span>
+                            <span>🎓 120 Credits</span>
+                        </div>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-image">
+                        <div class="program-badge">New</div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Business Administration</h3>
+                        <p>Accelerated MBA program with specializations in finance, marketing, and entrepreneurship.</p>
+                        <div class="program-meta">
+                            <span>⏱️ 2 Years</span>
+                            <span>🎓 60 Credits</span>
+                        </div>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-image">
+                        <div class="program-badge">Featured</div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Biomedical Engineering</h3>
+                        <p>Combine engineering principles with medical sciences for healthcare innovation.</p>
+                        <div class="program-meta">
+                            <span>⏱️ 4 Years</span>
+                            <span>🎓 128 Credits</span>
+                        </div>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events">
+        <div class="container">
+            <h2 class="section-title">Upcoming Events</h2>
+            <div class="events-list">
+                <div class="event-item">
+                    <div class="event-date">
+                        <div class="day">15</div>
+                        <div class="month">MAR</div>
+                    </div>
+                    <div class="event-details">
+                        <h3>Open House 2026</h3>
+                        <p>Visit campus, meet faculty, and learn about our programs.</p>
+                        <div class="event-meta">
+                            <span>🕒 10:00 AM - 3:00 PM</span>
+                            <span>📍 Main Campus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="event-date">
+                        <div class="day">22</div>
+                        <div class="month">MAR</div>
+                    </div>
+                    <div class="event-details">
+                        <h3>Research Symposium</h3>
+                        <p>Undergraduate and graduate research presentations.</p>
+                        <div class="event-meta">
+                            <span>🕒 9:00 AM - 5:00 PM</span>
+                            <span>📍 Science Center</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <div class="event-date">
+                        <div class="day">05</div>
+                        <div class="month">APR</div>
+                    </div>
+                    <div class="event-details">
+                        <h3>Career Fair</h3>
+                        <p>Connect with top employers and explore internship opportunities.</p>
+                        <div class="event-meta">
+                            <span>🕒 11:00 AM - 4:00 PM</span>
+                            <span>📍 Student Union</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faculty">
+        <div class="container">
+            <h2 class="section-title">Meet Our Faculty</h2>
+            <div class="faculty-grid">
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <span>👩‍🏫</span>
+                        <div class="faculty-social">
+                            <a href="#">📧</a>
+                            <a href="#">🔬</a>
+                            <a href="#">📄</a>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Sarah Chen</h3>
+                        <p>Computer Science</p>
+                        <p>AI & Machine Learning</p>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <span>👨‍🏫</span>
+                        <div class="faculty-social">
+                            <a href="#">📧</a>
+                            <a href="#">🔬</a>
+                            <a href="#">📄</a>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. James Wilson</h3>
+                        <p>Business School</p>
+                        <p>Entrepreneurship</p>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <span>👩‍🔬</span>
+                        <div class="faculty-social">
+                            <a href="#">📧</a>
+                            <a href="#">🔬</a>
+                            <a href="#">📄</a>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Maria Rodriguez</h3>
+                        <p>Biomedical Engineering</p>
+                        <p>Medical Devices</p>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <span>👨‍🔬</span>
+                        <div class="faculty-social">
+                            <a href="#">📧</a>
+                            <a href="#">🔬</a>
+                            <a href="#">📄</a>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Michael Kim</h3>
+                        <p>Physics</p>
+                        <p>Quantum Computing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Student Stories</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">The research opportunities here are incredible. I've been working in a lab since my sophomore year!</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div class="author-info">
+                            <h4>Jessica Davis</h4>
+                            <p>Biology Major, Class of 2026</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">The faculty truly care about your success. My advisor helped me secure an internship at Google.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AP</div>
+                        <div class="author-info">
+                            <h4>Alex Patel</h4>
+                            <p>Computer Science, Class of 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">The diverse community here has broadened my perspective and created lifelong friendships.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">LM</div>
+                        <div class="author-info">
+                            <h4>Lisa Martinez</h4>
+                            <p>International Relations, Class of 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Take the Next Step</h2>
+                <p>Join a community of scholars, innovators, and leaders. Applications for Fall 2026 are now open.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn">Apply Today</a>
+                    <a href="#" class="btn btn-secondary">Request Information</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="university-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>University of Knowledge</h3>
+                    <p>Empowering minds, transforming lives through education, research, and innovation since 1850.</p>
+                    <p>📍 123 Campus Drive<br>University City, ST 12345</p>
+                    <p>📞 +1 (555) 123-4567</p>
+                    <p>✉️ info@university.edu</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Academics</a></li>
+                        <li><a href="#">Admissions</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Campus Life</a></li>
+                        <li><a href="#">Career Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">IT Services</a></li>
+                        <li><a href="#">Student Portal</a></li>
+                        <li><a href="#">Faculty Portal</a></li>
+                        <li><a href="#">Alumni Network</a></li>
+                        <li><a href="#">Events Calendar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for updates on programs, events, and campus news.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">→</button>
+                    </form>
+                    <div class="social-links" style="margin-top: 20px;">
+                        <a href="#">📘</a>
+                        <a href="#">🐦</a>
+                        <a href="#">📷</a>
+                        <a href="#">🔗</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>© 2026 University of Knowledge. All rights reserved.</div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Accessibility</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
